@@ -5,7 +5,7 @@ int startNumber = 1;
 
 while(startNumber <= number)
     {
-        if(startNumber % 2 ==0)
-        Console.WriteLine(startNumber + ", ");
+        if(startNumber % 2 == 0)
+        Console.Write(startNumber + ", ");
         startNumber ++;
     }
